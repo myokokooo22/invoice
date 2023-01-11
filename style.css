@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f4f4f4;
+    color: #999;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    background-color: transparent;
+    border: 0;
+    color: orangered;
+    text-align: center;
+    height: 100%;
+}
+
+.inputs:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: orangered;
+}
+
+
+.items{
+    background: linear-gradient(95deg,#99f24b,#4b93f2);
+    color: white;
+    padding: 20px;
+}
+
+.selects{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid white;
+    border-radius: 0;
+}
+
+.num{
+    padding: 10px;
+}
